@@ -15,10 +15,10 @@ pipeline {
             }
         }
 
-        stage('Run Docker Image'){
-            steps {
-                runDockerContainer('hello_world_image_v1')
-            }
-        }
+//         stage('Run Docker Image'){
+//             steps {
+//                 runDockerContainer('hello_world_image_v1')
+//             }
+//         }
     }
 }
